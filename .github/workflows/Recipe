@@ -1,36 +1,159 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bong-Thai Coconut Fish Curry</title>
+  <link href="Screen Shot 2025-05-01 at 10.23.22 AM.png" 
+  alt="Bong-Thai Coconut Fish Curry" class="hero-img">
+  <style>
+    body {
+      font-family: 'Roboto', Regular;
+      font-size: 1rem;
+      margin: 8;
+      padding: 8;
+      background-color: #333333;
+      color: #f9f9f9;
+    }
+    header {
+      background-color: #ff6433;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Prata', regular;
+      font-size: 2.5rem;
+      margin: 2;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0rem auto;
+      background: #000000;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(2,2,2,2.2);
+    }
+    h2 {
+      font-family: 'Prata', regular;
+      font-size: 2rem;
+      color: #f9f9f9;
+      margin-top: 2rem;
+    }
+    .hero-img {
+      width: 965px;
+      max-height: 700px;
+      margin: 0rem auto;
+      padding: 0rem;
+      display: block;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #a3a3a3;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Bong-Thai Coconut Fish Curry</h1>
+</header>
+<img src="Screen Shot 2025-05-01 at 10.23.22 AM.png" alt="Thai-Bengali Coconut Carp Curry" class="hero-img">
 
-name: CI
+<div class="container">
+   <section>
+    <h2>Flavor Profile</h2>
+    <p>
+     A creamy fish curry falvored with eastern spices, paired with fried eggplants, crispy plantain-potato cakes and pandan rice.
+    </p>
+  </section>
+    <h2>Ingredients</h2>
+    <h3>For the Curry:</h3>
+    <ul>
+      <li>2 Indian carp steaks</li>
+      <li>1 cup thick coconut milk</li>
+      <li>1 small onion, finely sliced</li>
+      <li>2 green chilies, slit</li>
+      <li>1 tbsp mustard seeds</li>
+      <li>1 tbsp Thai red curry paste</li>
+      <li>1 tbsp turmeric powder</li>
+      <li>1 tsp Kashmiri red chili powder (optional)</li>
+      <li>1-inch ginger piece, julienned</li>
+      <li>1 stalk lemongrass</li>
+      <li>1 kaffir lime leaf (optional)</li>
+      <li>2 tbsp mustard oil</li>
+      <li>Salt to taste</li>
+      <li>Fresh coriander for garnish</li>
+    </ul>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    <h3>For the Hash:</h3>
+    <ul>
+      <li>1 raw plantain, peeled and grated</li>
+      <li>1 medium potato, peeled and grated</li>
+      <li>1 tsp nigella seeds</li>
+      <li>1 green chili, chopped</li>
+      <li>Salt to taste</li>
+      <li>Mustard oil for shallow frying</li>
+    </ul>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+   <h3>For the Fried Eggplant:</h3>
+    <ul>
+      <li>1 medium eggplant, sliced into 1/2-inch rounds</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>Salt to taste</li>
+      <li>Mustard oil for shallow frying</li>
+    </ul>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    <h3>For the Rice:</h3>
+    <ul>
+      <li>1 cup short-grain white rice</li>
+      <li>2 cups water</li>
+      <li>Pandan leaf (optional)</li>
+      <li>Salt</li>
+    </ul>
+  </section>
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+  <section>
+    <h2>Method</h2>
+    <h3>Rice Preparation:</h3>
+    <ol>
+      <li>Rinse rice thoroughly. Boil with water and pandan leaf if using.</li>
+      <li>Simmer covered until water is absorbed (around 15 minutes).</li>
+    </ol>
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+    <h3>Plantain-Potato Hash:</h3>
+    <ol>
+      <li>Grate plantain and potato, squeeze excess water.</li>
+      <li>Mix with nigella seeds, chopped chili, and salt.</li>
+      <li>Shape into cakes and shallow fry until golden.</li>
+    </ol>
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      <h3>Fried Eggplants:</h3>
+    <ol>
+      <li>Sprinkle the eggplant slices with turmeric and salt. Let sit for 10 minutes.</li>
+      <li>Heat mustard oil in a frying pan over medium heat.</li>
+      <li>Fry the eggplant slices until golden brown on both sides.</li>
+      <li>Drain on paper towels and keep warm.</li>
+    </ol>
+
+    <h3>Fish Curry:</h3>
+    <ol>
+      <li>Marinate fish with salt and turmeric for 10 mins.</li>
+      <li>Fry fish in mustard oil until golden, set aside.</li>
+      <li>Temper mustard seeds, saute onions, ginger, chilies, lemongrass, and lime leaf.</li>
+      <li>Add curry paste, coconut milk, and simmer.</li>
+      <li>Add fish steaks, simmer for 8-10 minutes, garnish with coriander.</li>
+    </ol>
+  </section>
+
+</div>
+
+<div class="footer">
+  &copy; 2025 Flavors from the East | Designed by Shahana Chatterjee
+</div>
+
+</body>
+</html>
