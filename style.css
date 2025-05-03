@@ -1,1 +1,22 @@
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust based on your image width */
+    max-width: 600px; /* Optional: set a max width */
+}
 
+.image-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+.recipe-name {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.2em; /* Adjust font size */
+    border-radius: 5px; /* Optional: rounded corners */
+}
